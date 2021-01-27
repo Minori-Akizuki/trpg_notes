@@ -2,7 +2,9 @@ title = "じつかいせきのTRPG雑記"
 
 theme = "hugo-theme-docport"
 
-baseURL = "https://example.com"
+baseURL = "https://minori-akizuki.github.io/trpg_notes/"
+publishDir = "docs"
+canonifyurls = true
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"
