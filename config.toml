@@ -68,5 +68,5 @@ tabWidth = 2
 [[menu.shortcuts]]
 name = "Github"
 identifier = "ds"
-url = "https://github.com/vjeantet/hugo-theme-docport"
+url = "https://github.com/Minori-Akizuki/trpg_notes"
 weight = 10
