@@ -12,14 +12,14 @@ body {
       color: initial;
       text-decoration: none; }
   body header {
-    background-color: #070303;
+    background-color: black;
     border-bottom: 2px solid gray;
     box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.1), 0 0.2rem 0.4rem rgba(0, 0, 0, 0.2);
     justify-content: space-between;
     align-items: stretch;
-    color: #d99697; }
+    color: #8c7c9c; }
     body header a, body header a:hover {
-      color: #f8fcfc; }
+      color: white; }
     body header > div {
       display: flex;
       flex-direction: row;
@@ -50,7 +50,7 @@ body {
           font-weight: bold;
           font-size: 90%; }
   body article {
-    background-color: white; }
+    background-color: #e5e2e9; }
     body article aside #close_menu {
       display: none;
       float: right;
@@ -71,8 +71,8 @@ body {
           letter-spacing: -1px;
           display: block;
           margin-bottom: 14px;
-          border-bottom: 1px dotted #9d393a;
-          color: #070303;
+          border-bottom: 1px dotted #3f3749;
+          color: black;
           font-variant: small-caps; }
         body article section.right-menu > div nav > ul {
           padding: 0px 0px 0px 0px;
@@ -80,7 +80,7 @@ body {
           body article section.right-menu > div nav > ul ul {
             padding: 0px 0px 0px 14px;
             margin: 0px 0px 0px 0px;
-            border-left: 1px solid #d99697; }
+            border-left: 1px solid #8c7c9c; }
             body article section.right-menu > div nav > ul ul li {
               font-size: 90%; }
         body article section.right-menu > div ul {
@@ -96,11 +96,11 @@ body {
       body article section.right-menu .Actions {
         font-size: 75%; }
   body footer {
-    background-color: #070303;
-    color: #f8fcfc;
+    background-color: black;
+    color: white;
     padding: 3rem; }
     body footer a {
-      color: #f8fcfc; }
+      color: white; }
 
 article section.page {
   background-color: inherit; }
@@ -126,7 +126,7 @@ article section.page {
           content: "⊸"; }
         article section.page #ariane ol li a {
           color: black;
-          border-bottom: 1px dotted #652426;
+          border-bottom: 1px dotted #19161d;
           padding-bottom: 4px;
           padding-right: 0px; }
         article section.page #ariane ol li.active:after {
@@ -156,33 +156,33 @@ article section.page {
       min-width: 50px; }
       article section.page nav.subpages li a {
         font-size: 90%;
-        color: #880204; }
+        color: #19092a; }
       article section.page nav.subpages li:not(:first-child):before {
         display: inline-block;
         margin-left: 0.4em;
         padding-right: .4rem;
-        color: #7a1012;
+        color: #190e25;
         content: "|"; }
       article section.page nav.subpages li.active {
         font-weight: bold; }
     article section.page nav.subpages li:first-child:before {
       content: "└ ";
-      color: #7a1012; }
+      color: #190e25; }
   article section.page div.jump-to-section {
     font-size: smaller;
-    color: #070303; }
+    color: black; }
     article section.page div.jump-to-section ul {
       padding-left-left: 0px;
       list-style-type: none; }
       article section.page div.jump-to-section ul li a {
-        color: #81090b; }
+        color: #190c27; }
     article section.page div.jump-to-section nav {
       background-color: white;
       opacity: 0.95; }
   article section.page div.chevrons {
     margin-top: 3rem;
-    border-top: 1px solid #d99697;
-    border-bottom: 1px solid #d99697;
+    border-top: 1px solid #8c7c9c;
+    border-bottom: 1px solid #8c7c9c;
     padding: 1rem 0rem;
     display: flex;
     flex-direction: row;
@@ -217,7 +217,7 @@ article section.page {
   article section.page h1:first-of-type {
     font-size: 2.6rem;
     margin-top: 1.5rem !important;
-    color: #070303;
+    color: black;
     margin-bottom: 0px;
     line-height: 1.05;
     letter-spacing: -.05em;
@@ -228,7 +228,7 @@ article section.page {
       article section.page h1:first-of-type span:before {
         padding-left: .75rem;
         padding-right: .75rem;
-        color: #070303;
+        color: black;
         content: "⊷"; }
 
 article section.page div.content {
@@ -239,14 +239,14 @@ article section.page div.content {
     top: -7rem;
     visibility: hidden; }
   article section.page div.content a {
-    color: #8a0002;
+    color: #190033;
     font-weight: 500;
     text-decoration: underline; }
   article section.page div.content p {
     margin-top: 1rem;
     margin-bottom: 1rem; }
   article section.page div.content h1 {
-    color: #2d1011;
+    color: black;
     font-variant-ligatures: none;
     font-weight: 800;
     letter-spacing: -0.75px;
