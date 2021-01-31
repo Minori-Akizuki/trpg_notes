@@ -3,23 +3,23 @@ body {
   font-family: "Montserrat",sans-serif;
   font-weight: 400;
   line-height: 1.5;
-  color: #7d0869; }
+  color: #101610; }
   body a {
-    color: #650655;
+    color: #050805;
     text-decoration: none;
     background-color: transparent; }
     body a:hover {
       color: initial;
       text-decoration: none; }
   body header {
-    background-color: #dd0eba;
+    background-color: #3b513b;
     border-bottom: 2px solid gray;
     box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.1), 0 0.2rem 0.4rem rgba(0, 0, 0, 0.2);
     justify-content: space-between;
     align-items: stretch;
-    color: white; }
+    color: #f8faf8; }
     body header a, body header a:hover {
-      color: #22f145; }
+      color: #c4aec4; }
     body header > div {
       display: flex;
       flex-direction: row;
@@ -45,7 +45,7 @@ body {
         body header nav.shortcuts li .fa {
           margin-right: 0.5rem; }
         body header nav.shortcuts li a {
-          color: #35f255;
+          color: #cdbacd;
           padding: 0 1rem;
           font-weight: bold;
           font-size: 90%; }
@@ -71,8 +71,8 @@ body {
           letter-spacing: -1px;
           display: block;
           margin-bottom: 14px;
-          border-bottom: 1px dotted #fbbcf0;
-          color: #dd0eba;
+          border-bottom: 1px dotted #9fb99f;
+          color: #3b513b;
           font-variant: small-caps; }
         body article section.right-menu > div nav > ul {
           padding: 0px 0px 0px 0px;
@@ -80,7 +80,7 @@ body {
           body article section.right-menu > div nav > ul ul {
             padding: 0px 0px 0px 14px;
             margin: 0px 0px 0px 0px;
-            border-left: 1px solid white; }
+            border-left: 1px solid #f8faf8; }
             body article section.right-menu > div nav > ul ul li {
               font-size: 90%; }
         body article section.right-menu > div ul {
@@ -96,11 +96,11 @@ body {
       body article section.right-menu .Actions {
         font-size: 75%; }
   body footer {
-    background-color: #dd0eba;
-    color: #22f145;
+    background-color: #3b513b;
+    color: #c4aec4;
     padding: 3rem; }
     body footer a {
-      color: #22f145; }
+      color: #c4aec4; }
 
 article section.page {
   background-color: inherit; }
@@ -122,11 +122,11 @@ article section.page {
           display: inline-block;
           padding-right: .5rem;
           padding-left: .5rem;
-          color: #7d0869;
+          color: #101610;
           content: "⊸"; }
         article section.page #ariane ol li a {
-          color: #7d0869;
-          border-bottom: 1px dotted #f674e0;
+          color: #101610;
+          border-bottom: 1px dotted #b30000;
           padding-bottom: 4px;
           padding-right: 0px; }
         article section.page #ariane ol li.active:after {
@@ -156,33 +156,33 @@ article section.page {
       min-width: 50px; }
       article section.page nav.subpages li a {
         font-size: 90%;
-        color: #ff6be6; }
+        color: #b30000; }
       article section.page nav.subpages li:not(:first-child):before {
         display: inline-block;
         margin-left: 0.4em;
         padding-right: .4rem;
-        color: #ff6be6;
+        color: #b30000;
         content: "|"; }
       article section.page nav.subpages li.active {
         font-weight: bold; }
     article section.page nav.subpages li:first-child:before {
       content: "└ ";
-      color: #ff6be6; }
+      color: #b30000; }
   article section.page div.jump-to-section {
     font-size: smaller;
-    color: #dd0eba; }
+    color: #3b513b; }
     article section.page div.jump-to-section ul {
       padding-left-left: 0px;
       list-style-type: none; }
       article section.page div.jump-to-section ul li a {
-        color: #ff6be6; }
+        color: #b30000; }
     article section.page div.jump-to-section nav {
       background-color: white;
       opacity: 0.95; }
   article section.page div.chevrons {
     margin-top: 3rem;
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
+    border-top: 1px solid #f8faf8;
+    border-bottom: 1px solid #f8faf8;
     padding: 1rem 0rem;
     display: flex;
     flex-direction: row;
@@ -217,7 +217,7 @@ article section.page {
   article section.page h1:first-of-type {
     font-size: 2.6rem;
     margin-top: 1.5rem !important;
-    color: #dd0eba;
+    color: #3b513b;
     margin-bottom: 0px;
     line-height: 1.05;
     letter-spacing: -.05em;
@@ -228,7 +228,7 @@ article section.page {
       article section.page h1:first-of-type span:before {
         padding-left: .75rem;
         padding-right: .75rem;
-        color: #dd0eba;
+        color: #3b513b;
         content: "⊷"; }
 
 article section.page div.content {
@@ -239,14 +239,14 @@ article section.page div.content {
     top: -7rem;
     visibility: hidden; }
   article section.page div.content a {
-    color: #ff6be6;
+    color: #b30000;
     font-weight: 500;
     text-decoration: underline; }
   article section.page div.content p {
     margin-top: 1rem;
     margin-bottom: 1rem; }
   article section.page div.content h1 {
-    color: #f22cd1;
+    color: #516f51;
     font-variant-ligatures: none;
     font-weight: 800;
     letter-spacing: -0.75px;
