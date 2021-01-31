@@ -3,23 +3,23 @@ body {
   font-family: "Montserrat",sans-serif;
   font-weight: 400;
   line-height: 1.5;
-  color: #1f4889; }
+  color: #1623b1; }
   body a {
-    color: #1a3d74;
+    color: #131e9a;
     text-decoration: none;
     background-color: transparent; }
     body a:hover {
       color: initial;
       text-decoration: none; }
   body header {
-    background-color: #3c76d3;
+    background-color: #4552e8;
     border-bottom: 2px solid gray;
     box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.1), 0 0.2rem 0.4rem rgba(0, 0, 0, 0.2);
     justify-content: space-between;
     align-items: stretch;
     color: white; }
     body header a, body header a:hover {
-      color: #c3892c; }
+      color: #baad17; }
     body header > div {
       display: flex;
       flex-direction: row;
@@ -45,7 +45,7 @@ body {
         body header nav.shortcuts li .fa {
           margin-right: 0.5rem; }
         body header nav.shortcuts li a {
-          color: #d19433;
+          color: #ccbe19;
           padding: 0 1rem;
           font-weight: bold;
           font-size: 90%; }
@@ -71,8 +71,8 @@ body {
           letter-spacing: -1px;
           display: block;
           margin-bottom: 14px;
-          border-bottom: 1px dotted #e2ebf8;
-          color: #3c76d3;
+          border-bottom: 1px dotted #fafbfe;
+          color: #4552e8;
           font-variant: small-caps; }
         body article section.right-menu > div nav > ul {
           padding: 0px 0px 0px 0px;
@@ -96,11 +96,11 @@ body {
       body article section.right-menu .Actions {
         font-size: 75%; }
   body footer {
-    background-color: #3c76d3;
-    color: #c3892c;
+    background-color: #4552e8;
+    color: #baad17;
     padding: 3rem; }
     body footer a {
-      color: #c3892c; }
+      color: #baad17; }
 
 article section.page {
   background-color: inherit; }
@@ -122,11 +122,11 @@ article section.page {
           display: inline-block;
           padding-right: .5rem;
           padding-left: .5rem;
-          color: #1f4889;
+          color: #1623b1;
           content: "⊸"; }
         article section.page #ariane ol li a {
-          color: #1f4889;
-          border-bottom: 1px dotted #a4bfea;
+          color: #1623b1;
+          border-bottom: 1px dotted #b6bcf6;
           padding-bottom: 4px;
           padding-right: 0px; }
         article section.page #ariane ol li.active:after {
@@ -156,26 +156,26 @@ article section.page {
       min-width: 50px; }
       article section.page nav.subpages li a {
         font-size: 90%;
-        color: #8fbaff; }
+        color: #adb4ff; }
       article section.page nav.subpages li:not(:first-child):before {
         display: inline-block;
         margin-left: 0.4em;
         padding-right: .4rem;
-        color: #93bbfb;
+        color: #adb4ff;
         content: "|"; }
       article section.page nav.subpages li.active {
         font-weight: bold; }
     article section.page nav.subpages li:first-child:before {
       content: "└ ";
-      color: #93bbfb; }
+      color: #adb4ff; }
   article section.page div.jump-to-section {
     font-size: smaller;
-    color: #3c76d3; }
+    color: #4552e8; }
     article section.page div.jump-to-section ul {
       padding-left-left: 0px;
       list-style-type: none; }
       article section.page div.jump-to-section ul li a {
-        color: #8fbaff; }
+        color: #adb4ff; }
     article section.page div.jump-to-section nav {
       background-color: white;
       opacity: 0.95; }
@@ -217,7 +217,7 @@ article section.page {
   article section.page h1:first-of-type {
     font-size: 2.6rem;
     margin-top: 1.5rem !important;
-    color: #3c76d3;
+    color: #4552e8;
     margin-bottom: 0px;
     line-height: 1.05;
     letter-spacing: -.05em;
@@ -228,7 +228,7 @@ article section.page {
       article section.page h1:first-of-type span:before {
         padding-left: .75rem;
         padding-right: .75rem;
-        color: #3c76d3;
+        color: #4552e8;
         content: "⊷"; }
 
 article section.page div.content {
@@ -239,14 +239,14 @@ article section.page div.content {
     top: -7rem;
     visibility: hidden; }
   article section.page div.content a {
-    color: #8fbaff;
+    color: #adb4ff;
     font-weight: 500;
     text-decoration: underline; }
   article section.page div.content p {
     margin-top: 1rem;
     margin-bottom: 1rem; }
   article section.page div.content h1 {
-    color: #6593dc;
+    color: #727dee;
     font-variant-ligatures: none;
     font-weight: 800;
     letter-spacing: -0.75px;
