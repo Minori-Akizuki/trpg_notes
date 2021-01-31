@@ -1,7 +1,7 @@
 ---
 date: "2020-01-27"
-description: プレイヤー体験のためのTRPGアンチパターン
-title: プレイヤー体験のためのTRPGアンチパターン
+description: プレイヤー体験のためのTRPGシナリオアンチパターン
+title: プレイヤー体験のためのTRPGシナリオアンチパターン
 weight: 1
 ---
 ## 心構え
