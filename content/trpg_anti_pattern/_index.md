@@ -4,6 +4,9 @@ description: プレイヤー体験のためのTRPGシナリオアンチパター
 title: プレイヤー体験のためのTRPGシナリオアンチパターン
 weight: 1
 ---
+
+ご意見ご感想や追記してほしい事などありましたら<a href="https://twitter.com/real_analysis">リプ</a>なり<a href="https://github.com/Minori-Akizuki/trpg_notes/issues">Issue</a>なり頂けると私が小躍りします。
+
 ## 心構え
 
 このページにはプレイヤー体験を向上させる、つまるところ「プレイヤーがやってて楽しいと思えるシナリオ」と作る上でやってはいけない事を列挙している。正確には「使いどころが難しいから安易に手を出してはいけない」事が書かれている。

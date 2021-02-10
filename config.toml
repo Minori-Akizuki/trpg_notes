@@ -70,3 +70,8 @@ name = "Github"
 identifier = "ds"
 url = "https://github.com/Minori-Akizuki/trpg_notes"
 weight = 10
+
+[[menu.shortcuts]]
+name = "Twitter"
+url = "https://twitter.com/real_analysis"
+weight = 10
