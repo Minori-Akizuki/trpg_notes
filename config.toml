@@ -6,8 +6,8 @@ baseURL = "https://minori-akizuki.github.io/trpg_notes/"
 publishDir = "docs"
 canonifyurls = true
 
-languageCode = "en-us"
-DefaultContentLanguage = "en"
+languageCode = "ja-jp"
+DefaultContentLanguage = "ja"
 pygmentsCodeFences = true
 pygmentsStyle = "monokai"
 
