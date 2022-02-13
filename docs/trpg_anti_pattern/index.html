@@ -1,330 +1,160 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>
-	プレイヤー体験のためのTRPGシナリオアンチパターン :: じつかいせきのTRPG雑記
+<!doctype html><html>
+<head>
+<title>
+プレイヤー体験のためのTRPGシナリオアンチパターン :: じつかいせきのTRPG雑記
 </title>
-    <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="revised" content="2022-02-13T23:08:40 JST">
-<meta name="description" content="プレイヤー体験のためのTRPGシナリオアンチパターン">
-
-
-
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta name=revised content="2022-02-13T14:14:19 UTC">
+<meta name=description content="プレイヤー体験のためのTRPGシナリオアンチパターン">
 <title>プレイヤー体験のためのTRPGシナリオアンチパターン :: じつかいせきのTRPG雑記</title>
-
-<link rel="shortcut icon" href='https://minori-akizuki.github.io/trpg_notes/images/favicon.png' type="image/x-icon" />
-
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css">
-
-<script src='https://code.jquery.com/jquery-3.5.1.min.js'></script>
-
-<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel="stylesheet">
-
-
-
-<link rel="stylesheet" type="text/css" href='https://minori-akizuki.github.io/trpg_notes/sass/layout.css'>
-<link rel="stylesheet" type="text/css" href='https://minori-akizuki.github.io/trpg_notes/css/style.main.css'>
-<link rel="stylesheet" type="text/css" href='https://minori-akizuki.github.io/trpg_notes/css/style.menu.css'>
-<link rel="stylesheet" type="text/css" href='https://minori-akizuki.github.io/trpg_notes/sass/shortcodes/notice.css'>
-<link rel="stylesheet" type="text/css" href='https://minori-akizuki.github.io/trpg_notes/sass/shortcodes/tabs.css'>
-<link rel="stylesheet" type="text/css" href='https://minori-akizuki.github.io/trpg_notes/sass/shortcodes/panel.css'>
-<link rel="stylesheet" type="text/css" href='https://minori-akizuki.github.io/trpg_notes/sass/shortcodes/columns.css'>
-<link rel="stylesheet" type="text/css" href='https://minori-akizuki.github.io/trpg_notes/sass/shortcodes/children.css'>
-<link rel="stylesheet" type="text/css" href='https://minori-akizuki.github.io/trpg_notes/sass/shortcodes/attachments.css'>
-<link rel="stylesheet" type="text/css" href='https://minori-akizuki.github.io/trpg_notes/sass/shortcodes/alert.css'>
-<link rel="stylesheet" type="text/css" href='https://minori-akizuki.github.io/trpg_notes/css/docport.css'>
-
-<script src='https://minori-akizuki.github.io/trpg_notes/js/docport.js'></script>
-<script type="text/javascript">
-      var baseurl = "https:\/\/minori-akizuki.github.io\/trpg_notes\/";
-</script>
-
-
-<meta name='twitter:card' content='summary'>
-<meta name='twitter:site' content='@real_analysis'>
-<meta property='og:url' content='https://minori-akizuki.github.io/trpg_notes/trpg_anti_pattern/'>
-<meta property='og:title' content='プレイヤー体験のためのTRPGシナリオアンチパターン'>
-<meta property='og:description' content='TRPGのための雑記です' />
-<meta property='og:image' content='https://minori-akizuki.github.io/trpg_notes/images/card_default.jpg'>
-
-    
-  </head>
-
-  <body data-url="https://minori-akizuki.github.io/trpg_notes/trpg_anti_pattern/"
-
-  class="">
-
-<style type="text/css">
-  #debug{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    line-height: 3.5rem;
-    margin-bottom: .35rem;
-    padding: 0 2rem;
-    position: fixed;
-    left: 0;      right: 0;     top: 0;
-   
-    top:0px;
-    
-    min-height: 150px;
-
-    background-color: white;
-    border: 3px solid red;
-    z-index: 10000 ;
-    word-wrap: all;
-    overflow: auto;
-  }
-</style>
- 
-
-
-    
-    
-    <header style="">
-        <div>
-    
-    <div class="burger ">
-        <a href="javascript:void(0);" style="font-size:15px;" onclick="$('article > aside').toggleClass('responsive')">&#9776;</a>
-    </div>
-    
-
-    <div>
-
-		
-	
-			
-		
-	    	<a class='baselink' href='https://minori-akizuki.github.io/trpg_notes/'>じつかいせきのTRPG雑記</a>
-	  	
-	</div>
-    <nav class="shortcuts">
-            <li class="" role="">
-                <a href="https://github.com/Minori-Akizuki/trpg_notes"  rel="noopener">
-                  Github
-                </a>
-            </li>
-            <li class="" role="">
-                <a href="https://twitter.com/real_analysis"  rel="noopener">
-                  Twitter
-                </a>
-            </li>
-    </nav>
-
+<link rel="shortcut icon" href=https://minori-akizuki.github.io/trpg_notes/images/favicon.png type=image/x-icon>
+<link rel=stylesheet href=https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css integrity=sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z crossorigin=anonymous>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.css>
+<script src=https://code.jquery.com/jquery-3.5.1.min.js></script>
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel=stylesheet>
+<link rel=stylesheet type=text/css href=https://minori-akizuki.github.io/trpg_notes/sass/layout.css>
+<link rel=stylesheet type=text/css href=https://minori-akizuki.github.io/trpg_notes/css/style.main.css>
+<link rel=stylesheet type=text/css href=https://minori-akizuki.github.io/trpg_notes/css/style.menu.css>
+<link rel=stylesheet type=text/css href=https://minori-akizuki.github.io/trpg_notes/sass/shortcodes/notice.css>
+<link rel=stylesheet type=text/css href=https://minori-akizuki.github.io/trpg_notes/sass/shortcodes/tabs.css>
+<link rel=stylesheet type=text/css href=https://minori-akizuki.github.io/trpg_notes/sass/shortcodes/panel.css>
+<link rel=stylesheet type=text/css href=https://minori-akizuki.github.io/trpg_notes/sass/shortcodes/columns.css>
+<link rel=stylesheet type=text/css href=https://minori-akizuki.github.io/trpg_notes/sass/shortcodes/children.css>
+<link rel=stylesheet type=text/css href=https://minori-akizuki.github.io/trpg_notes/sass/shortcodes/attachments.css>
+<link rel=stylesheet type=text/css href=https://minori-akizuki.github.io/trpg_notes/sass/shortcodes/alert.css>
+<link rel=stylesheet type=text/css href=https://minori-akizuki.github.io/trpg_notes/css/docport.css>
+<script src=https://minori-akizuki.github.io/trpg_notes/js/docport.js></script>
+<script type=text/javascript>var baseurl="https://minori-akizuki.github.io/trpg_notes/"</script>
+<meta name=twitter:card content="summary">
+<meta name=twitter:site content="@real_analysis">
+<meta property="og:url" content="https://minori-akizuki.github.io/trpg_notes/trpg_anti_pattern/">
+<meta property="og:title" content="プレイヤー体験のためのTRPGシナリオアンチパターン">
+<meta property="og:description" content="TRPGのための雑記です">
+<meta property="og:image" content="https://minori-akizuki.github.io/trpg_notes/images/card_default.jpg">
+</head>
+<body data-url=https://minori-akizuki.github.io/trpg_notes/trpg_anti_pattern/>
+<style type=text/css>#debug{display:-webkit-box;display:-ms-flexbox;display:flex;line-height:3.5rem;margin-bottom:.35rem;padding:0 2rem;position:fixed;left:0;right:0;top:0;top:0;min-height:150px;background-color:#fff;border:3px solid red;z-index:10000;word-wrap:all;overflow:auto}</style>
+<header>
+<div>
+<div class=burger>
+<a href=javascript:void(0); style=font-size:15px onclick="$('article > aside').toggleClass('responsive')">&#9776;</a>
 </div>
-    </header>
-    
-
-    <article>
-      
-      <aside class="">
-        
-<div class="search">
-	<div class="searchbox">
-	  <input data-search-input id="search-by" type="text" placeholder="">
-	</div>
-	<script type="text/javascript" src="https://minori-akizuki.github.io/trpg_notes/vendor/lunr/lunr.min.js"></script>
-	<script type="text/javascript" src="https://minori-akizuki.github.io/trpg_notes/vendor/auto-complete/auto-complete.js"></script>
-	<link href="https://minori-akizuki.github.io/trpg_notes/vendor/auto-complete/auto-complete.css" rel="stylesheet">
-	<script type="text/javascript">
-	  
-	      var baseurl = "https:\/\/minori-akizuki.github.io\/trpg_notes\/";
-	  
-	</script>
-	<script type="text/javascript" src="https://minori-akizuki.github.io/trpg_notes/js/search.js"></script>
+<div>
+<a class=baselink href=https://minori-akizuki.github.io/trpg_notes/>じつかいせきのTRPG雑記</a>
 </div>
-
-		
-	
-			
-		
-	    	
-	  	
-	<div id="close_menu">
-  <a href="javascript:void(0);" style="font-size:15px;" onclick="$('article > aside').toggleClass('responsive')">
-      <i class="fa fa-lg fa-times"></i>
-  </a>
-</div>
-
-<ul class="menu">
-
-    <li data-nav-id="https://minori-akizuki.github.io/trpg_notes/howto_write_multiple_scenario/" class="dd-item
-        item_level_$level
-        ">
-
-      
-      
-      
-      
-        
-      
-          <a href="https://minori-akizuki.github.io/trpg_notes/howto_write_multiple_scenario/">どうせルールブックすら読んでないあなたのための TRPG マルチルート/エンドシナリオの執筆法と回しかた</a>
-      
-    </li>
-    
-
-    <li data-nav-id="https://minori-akizuki.github.io/trpg_notes/multi_ending_conduct/" class="dd-item
-        item_level_$level
-        ">
-
-      
-      
-      
-      
-        
-      
-          <a href="https://minori-akizuki.github.io/trpg_notes/multi_ending_conduct/">TRPGにおけるマルチエンドシナリオの功績と原罪</a>
-      
-    </li>
-    
-
-    <li data-nav-id="https://minori-akizuki.github.io/trpg_notes/trpg_anti_pattern/" class="dd-item parent active
-        item_level_$level
-        ">
-
-      
-      
-      
-      
-        
-      
-          <a href="https://minori-akizuki.github.io/trpg_notes/trpg_anti_pattern/">プレイヤー体験のためのTRPGシナリオアンチパターン</a>
-      
-    </li>
-    
-
-
-
-</ul>
-
-		
-	
-			
-		
-	    	
-	  	
-	
-      </aside>
-      
-
-      <section class="page ">
-      
-	
-		
-    
-    
-    <nav id="ariane" aria-label="breadcrumb">
-      <ol class="ariane">
-        
-  
-  	
-	<li >
-      <a class="text-link" href="https://minori-akizuki.github.io/trpg_notes/">
-        
-      </a>
-    </li>
-	
-  
-    <li class="active">
-      
-        プレイヤー体験のためのTRPGシナリオアンチパターン
-      
-    </li>
-
-      </ol>
-    </nav>
-    
-    
-
-    
-		
-        
-		
-		
-		
-		
-		
-		
-		
-
-		
-			<h1>プレイヤー体験のためのTRPGシナリオアンチパターン</h1>
-        
-
-		
-										
-		
-
-		
-	
-
-	
-	
-	<div class="jump-to-section">
-		<span onclick="$h = $(this);$h.next('nav').slideToggle(100,function () {$h.children('i').attr('class',function () {return $h.next('nav').is(':visible') ? 'fas fa-chevron-down' : 'fas fa-chevron-right';});});">
-  			<span class="fas fa-align-right"></span>
-  			
-  			<i style=";" class="fas fa-chevron-right"></i>
-		</span>
-		<nav id="TableOfContents">
-  <ul>
-    <li><a href="#心構え">心構え</a></li>
-    <li><a href="#全般">全般</a>
-      <ul>
-        <li><a href="#見て楽しいシナリオとやって楽しいシナリオは異なる">「見て楽しいシナリオ」と「やって楽しいシナリオ」は異なる</a></li>
-        <li><a href="#シナリオ説明で嘘をつく">シナリオ説明で嘘をつく</a></li>
-        <li><a href="#プレイヤーが感じた通りに思うように演出させてください">「プレイヤーが感じた通りに/思うように演出させてください」</a></li>
-        <li><a href="#システムでサポートされていない秘匿ハンドアウト">システムでサポートされていない秘匿ハンドアウト</a></li>
-        <li><a href="#役割と立場の混同">「役割」と「立場」の混同</a></li>
-        <li><a href="#キャラクターのロスト">キャラクターのロスト</a></li>
-      </ul>
-    </li>
-    <li><a href="#ストーリー">ストーリー</a>
-      <ul>
-        <li><a href="#プレイヤーがシナリオに干渉できない">プレイヤーがシナリオに干渉できない</a></li>
-        <li><a href="#npc無双">NPC無双</a></li>
-        <li><a href="#明確な成功失敗以外の大袈裟なマルチエンドシナリオ分岐">明確な成功/失敗以外の大袈裟なマルチエンド、シナリオ分岐</a></li>
-        <li><a href="#結末が明示されない選択苦渋の選択を迫る">結末が明示されない選択、苦渋の選択を迫る</a></li>
-        <li><a href="#固有名詞のついたストーリー上意味のないオリジナルnpc">固有名詞のついたストーリー上意味のないオリジナルNPC</a></li>
-        <li><a href="#キャラクターの孤立">キャラクターの孤立</a></li>
-        <li><a href="#単一のギミックでシナリオそのものが失敗になる">単一のギミックでシナリオそのものが失敗になる</a></li>
-        <li><a href="#描写されない失敗点">描写されない「失敗点」</a></li>
-      </ul>
-    </li>
-    <li><a href="#情報収集">情報収集</a>
-      <ul>
-        <li><a href="#情報収集項目の非公開">情報収集項目の非公開</a></li>
-        <li><a href="#目標値の非公開">目標値の非公開</a></li>
-        <li><a href="#情報を点で出す">情報を点で出す</a></li>
-        <li><a href="#情報の出し渋り">情報の出し渋り</a></li>
-        <li><a href="#重複した情報">重複した情報</a></li>
-        <li><a href="#ナゾ">「ナゾ」</a></li>
-      </ul>
-    </li>
-    <li><a href="#エネミー強化の方針">エネミー強化の方針</a>
-      <ul>
-        <li><a href="#不相応に強いエネミー">不相応に強いエネミー</a></li>
-        <li><a href="#必要以上に回避装甲の高いエネミー">必要以上に回避/装甲の高いエネミー</a></li>
-        <li><a href="#何かを無効にするエネミー">何かを無効にするエネミー</a></li>
-      </ul>
-    </li>
-  </ul>
+<nav class=shortcuts>
+<li role>
+<a href=https://github.com/Minori-Akizuki/trpg_notes rel=noopener>
+Github
+</a>
+</li>
+<li role>
+<a href=https://twitter.com/real_analysis rel=noopener>
+Twitter
+</a>
+</li>
 </nav>
-	</div>
-	
-	
-
-
-
-
-
-
-	<div class="content">
-	    <p>ご意見ご感想や追記してほしい事などありましたら<a href="https://twitter.com/real_analysis">リプ</a>なり<a href="https://github.com/Minori-Akizuki/trpg_notes/issues">Issue</a>なり頂けると私が小躍りします。</p>
-<h2 ref="心構え" >心構え</h2><a class="anchor" id="心構え"></a>
+</div>
+</header>
+<article>
+<aside>
+<div class=search>
+<div class=searchbox>
+<input data-search-input id=search-by type=text placeholder>
+</div>
+<script type=text/javascript src=https://minori-akizuki.github.io/trpg_notes/vendor/lunr/lunr.min.js></script>
+<script type=text/javascript src=https://minori-akizuki.github.io/trpg_notes/vendor/auto-complete/auto-complete.js></script>
+<link href=https://minori-akizuki.github.io/trpg_notes/vendor/auto-complete/auto-complete.css rel=stylesheet>
+<script type=text/javascript>var baseurl="https://minori-akizuki.github.io/trpg_notes/"</script>
+<script type=text/javascript src=https://minori-akizuki.github.io/trpg_notes/js/search.js></script>
+</div>
+<div id=close_menu>
+<a href=javascript:void(0); style=font-size:15px onclick="$('article > aside').toggleClass('responsive')">
+<i class="fa fa-lg fa-times"></i>
+</a>
+</div>
+<ul class=menu>
+<li data-nav-id=https://minori-akizuki.github.io/trpg_notes/howto_write_multiple_scenario/ class="dd-item
+item_level_$level">
+<a href=https://minori-akizuki.github.io/trpg_notes/howto_write_multiple_scenario/>どうせルールブックすら読んでないあなたのための TRPG マルチルート/エンドシナリオの執筆法と回しかた</a>
+</li>
+<li data-nav-id=https://minori-akizuki.github.io/trpg_notes/multi_ending_conduct/ class="dd-item
+item_level_$level">
+<a href=https://minori-akizuki.github.io/trpg_notes/multi_ending_conduct/>TRPGにおけるマルチエンドシナリオの功績と原罪</a>
+</li>
+<li data-nav-id=https://minori-akizuki.github.io/trpg_notes/trpg_anti_pattern/ class="dd-item parent active
+item_level_$level">
+<a href=https://minori-akizuki.github.io/trpg_notes/trpg_anti_pattern/>プレイヤー体験のためのTRPGシナリオアンチパターン</a>
+</li>
+</ul>
+</aside>
+<section class=page>
+<nav id=ariane aria-label=breadcrumb>
+<ol class=ariane>
+<li>
+<a class=text-link href=https://minori-akizuki.github.io/trpg_notes/>
+</a>
+</li>
+<li class=active>
+プレイヤー体験のためのTRPGシナリオアンチパターン
+</li>
+</ol>
+</nav>
+<h1>プレイヤー体験のためのTRPGシナリオアンチパターン</h1>
+<div class=jump-to-section>
+<span onclick="$h=$(this),$h.next('nav').slideToggle(100,function(){$h.children('i').attr('class',function(){return $h.next('nav').is(':visible')?'fas fa-chevron-down':'fas fa-chevron-right'})})">
+<span class="fas fa-align-right"></span>
+<i class="fas fa-chevron-right"></i>
+</span>
+<nav id=TableOfContents>
+<ul>
+<li><a href=#心構え>心構え</a></li>
+<li><a href=#全般>全般</a>
+<ul>
+<li><a href=#見て楽しいシナリオとやって楽しいシナリオは異なる>「見て楽しいシナリオ」と「やって楽しいシナリオ」は異なる</a></li>
+<li><a href=#シナリオ説明で嘘をつく>シナリオ説明で嘘をつく</a></li>
+<li><a href=#プレイヤーが感じた通りに思うように演出させてください>「プレイヤーが感じた通りに/思うように演出させてください」</a></li>
+<li><a href=#システムでサポートされていない秘匿ハンドアウト>システムでサポートされていない秘匿ハンドアウト</a></li>
+<li><a href=#役割と立場の混同>「役割」と「立場」の混同</a></li>
+<li><a href=#キャラクターのロスト>キャラクターのロスト</a></li>
+</ul>
+</li>
+<li><a href=#ストーリー>ストーリー</a>
+<ul>
+<li><a href=#プレイヤーがシナリオに干渉できない>プレイヤーがシナリオに干渉できない</a></li>
+<li><a href=#npc無双>NPC無双</a></li>
+<li><a href=#明確な成功失敗以外の大袈裟なマルチエンドシナリオ分岐>明確な成功/失敗以外の大袈裟なマルチエンド、シナリオ分岐</a></li>
+<li><a href=#結末が明示されない選択苦渋の選択を迫る>結末が明示されない選択、苦渋の選択を迫る</a></li>
+<li><a href=#固有名詞のついたストーリー上意味のないオリジナルnpc>固有名詞のついたストーリー上意味のないオリジナルNPC</a></li>
+<li><a href=#キャラクターの孤立>キャラクターの孤立</a></li>
+<li><a href=#単一のギミックでシナリオそのものが失敗になる>単一のギミックでシナリオそのものが失敗になる</a></li>
+<li><a href=#描写されない失敗点>描写されない「失敗点」</a></li>
+</ul>
+</li>
+<li><a href=#情報収集>情報収集</a>
+<ul>
+<li><a href=#情報収集項目の非公開>情報収集項目の非公開</a></li>
+<li><a href=#目標値の非公開>目標値の非公開</a></li>
+<li><a href=#情報を点で出す>情報を点で出す</a></li>
+<li><a href=#情報の出し渋り>情報の出し渋り</a></li>
+<li><a href=#重複した情報>重複した情報</a></li>
+<li><a href=#ナゾ>「ナゾ」</a></li>
+</ul>
+</li>
+<li><a href=#エネミー強化の方針>エネミー強化の方針</a>
+<ul>
+<li><a href=#不相応に強いエネミー>不相応に強いエネミー</a></li>
+<li><a href=#必要以上に回避装甲の高いエネミー>必要以上に回避/装甲の高いエネミー</a></li>
+<li><a href=#何かを無効にするエネミー>何かを無効にするエネミー</a></li>
+</ul>
+</li>
+</ul>
+</nav>
+</div>
+<div class=content>
+<p>ご意見ご感想や追記してほしい事などありましたら<a href=https://twitter.com/real_analysis>リプ</a>なり<a href=https://github.com/Minori-Akizuki/trpg_notes/issues>Issue</a>なり頂けると私が小躍りします。</p>
+<h2 ref=心構え>心構え</h2><a class=anchor id=心構え></a>
 <p>このページにはプレイヤー体験を向上させる、つまるところ「プレイヤーがやってて楽しいと思えるシナリオ」と作る上でやってはいけない事を列挙している。正確には「使いどころが難しいから安易に手を出してはいけない」事が書かれている。</p>
 <p>TRPGというのはGMとプレイヤーが一体となってひとつの物語を作りあげるゲームである。その上でプレイヤーが「やってて楽しい」と思えなければそれはシナリオかGM回しのどこかに欠陥がある。一昔前まではGMとシナリオ作者が同一である事の方が多くその責任分担が曖昧になっていたのだが、今どきインターネットには大量のシナリオが出回っている。また自身で作成したシナリオを公開する機会も多くなっているだろう。その上で「こういう要素はシナリオに組込むのに注意がいる」、あるいは「こういう要素が入っているシナリオを回すのには注意がいる」という点を纏めた物である。</p>
 <p>昨今のTRPGブーム、正確には「TRPG動画」ブームと呼ぶべきなのだが、その過程でシナリオ作者がやりたいことをつめこみすぎたせいであまりにもプレイヤー体験を蔑ろにしたシナリオが蔓延している現状を鑑みこのまとめを作成するに至った。</p>
