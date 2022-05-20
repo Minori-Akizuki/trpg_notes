@@ -1,1 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://minori-akizuki.github.io/trpg_notes/coc_for_newbie/</loc><lastmod>2022-03-28T00:00:00+00:00</lastmod></url><url><loc>https://minori-akizuki.github.io/trpg_notes/howto_write_multiple_scenario/</loc><lastmod>2022-01-29T18:10:16+09:00</lastmod></url><url><loc>https://minori-akizuki.github.io/trpg_notes/multi_ending_conduct/</loc><lastmod>2022-01-08T00:00:00+00:00</lastmod></url><url><loc>https://minori-akizuki.github.io/trpg_notes/trpg_anti_pattern/</loc><lastmod>2021-02-03T00:00:00+00:00</lastmod></url><url><loc>https://minori-akizuki.github.io/trpg_notes/</loc><lastmod>2022-03-28T00:00:00+00:00</lastmod></url><url><loc>https://minori-akizuki.github.io/trpg_notes/404.html</loc><lastmod>2020-09-08T20:40:23+00:00</lastmod></url></urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://minori-akizuki.github.io/trpg_notes/coc_for_newbie/</loc>
+    <lastmod>2022-03-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://minori-akizuki.github.io/trpg_notes/howto_write_multiple_scenario/</loc>
+    <lastmod>2022-01-29T18:10:16+09:00</lastmod>
+  </url><url>
+    <loc>https://minori-akizuki.github.io/trpg_notes/multi_ending_conduct/</loc>
+    <lastmod>2022-01-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://minori-akizuki.github.io/trpg_notes/trpg_anti_pattern/</loc>
+    <lastmod>2021-02-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://minori-akizuki.github.io/trpg_notes/</loc>
+    <lastmod>2022-03-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://minori-akizuki.github.io/trpg_notes/404.html</loc>
+    <lastmod>2020-09-08T20:40:23+00:00</lastmod>
+  </url>
+</urlset>
