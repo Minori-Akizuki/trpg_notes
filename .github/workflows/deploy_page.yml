@@ -29,6 +29,8 @@ jobs:
       # hugo setup and build
       - name: Hugo setup
         uses: peaceiris/actions-hugo@v3
+        with:
+          extended: true
       
       - name: hugo build
         run: hugo --minify
